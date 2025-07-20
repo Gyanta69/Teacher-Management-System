@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-01-22T16:24:20.407Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="3iWS8zhH4tT_3WdSgyBK" version="22.1.21" type="device">
+  <diagram name="Page-1" id="cIcgPbWB3zHCIp0TS6sQ">
+    <mxGraphModel dx="2201" dy="1132" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-1" value="Teacher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="70" width="260" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-2" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;- teacherId: int&lt;br&gt;-&amp;nbsp;teacherName : String&lt;br&gt;-&amp;nbsp;address : String&lt;br&gt;-&amp;nbsp;workingType : String&lt;br&gt;-&amp;nbsp;employmentStatus : String&lt;br&gt;-&amp;nbsp;workingHours : double&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-1">
+          <mxGeometry y="26" width="260" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-3" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;Constructor&amp;gt;&amp;gt;Teacher(teacherId: int,&amp;nbsp; &lt;br&gt;teacherName:String,address:String,workingType:String,&lt;br&gt;employmentStatus:&amp;nbsp;String&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-1">
+          <mxGeometry y="120" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-4" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+&amp;nbsp;getTeacherId() : int&lt;br&gt;+&amp;nbsp;getTeacherName() : String&lt;br&gt;+&amp;nbsp;getAddress() : String&lt;br&gt;+&amp;nbsp;getWorkingType() : String&lt;br&gt;+&amp;nbsp;getEmploymentStatus() : String&lt;br&gt;+&amp;nbsp;getWorkingHours() : double&lt;br&gt;+&amp;nbsp;setWorkingHours( workingHours: double)&amp;nbsp;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-1">
+          <mxGeometry y="170" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-15" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp;+display(): void&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-1">
+          <mxGeometry y="280" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-5" value="Lecturer" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="230" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-6" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;-&amp;nbsp;department : String&lt;br&gt;-&amp;nbsp;yearsOfExperience : int&lt;br&gt;-&amp;nbsp;&amp;nbsp;gradedScore : int&lt;br&gt;-&amp;nbsp;hasGraded : boolean&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-5">
+          <mxGeometry y="26" width="230" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;Constructor&amp;gt;&amp;gt;Lecturer(teacherId :int&amp;nbsp;, teacherName :String, address :String, workingType :String, employmentStatus :String,department :String&amp;nbsp;,&lt;br&gt;yearsOfExperience :int, workingHours :&amp;nbsp;int)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-5">
+          <mxGeometry y="90" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-8" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+&amp;nbsp;&amp;nbsp;getDepartment() :String&lt;br&gt;+&amp;nbsp;&amp;nbsp;getYearsOfExperience() : int&lt;br&gt;+&amp;nbsp; getGradedScore() : int&lt;br&gt;+&amp;nbsp;&amp;nbsp;getHasGraded() : boolean&lt;br&gt;+&amp;nbsp;&amp;nbsp;setGradedScore(gradedScore : int)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-5">
+          <mxGeometry y="170" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-14" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; +gradeAssignment(gradesScore : int, &lt;br&gt;&amp;nbsp; &amp;nbsp; department :String, yearsOfExpirence :int)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-5">
+          <mxGeometry y="260" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-17" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; +display() : void&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-5">
+          <mxGeometry y="290" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JZdgUE2cCizq7lvIFVpE-5" target="JZdgUE2cCizq7lvIFVpE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="460" as="sourcePoint" />
+            <mxPoint x="340" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-10" value="Tutor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="490" y="540" width="250" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-11" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;-&amp;nbsp;&amp;nbsp;salary : int&lt;br&gt;-&amp;nbsp;specialization : String&lt;br&gt;-&amp;nbsp;academicQualifications : String&lt;br&gt;-&amp;nbsp;performanceIndex : int&lt;br&gt;-&amp;nbsp;isCertified : boolean&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-10">
+          <mxGeometry y="26" width="250" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt;Constructor&amp;gt;&amp;gt;Tutor(teacherID :int&amp;nbsp;, teacherName :String,address:String&amp;nbsp;,workingType:String,&lt;br&gt;employmentStatus:String&amp;nbsp;, workingHours:int, salary:double,specialization:String&amp;nbsp;,&lt;br&gt;academicQualifications:String&amp;nbsp;,performanceIndex:int&amp;nbsp;)&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-10">
+          <mxGeometry y="110" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-13" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;+&amp;nbsp;getSalary() : int&lt;br&gt;+&amp;nbsp;getSpecialization() :String&lt;br&gt;+&amp;nbsp;getAcademicQualifications() :String&lt;br&gt;+&amp;nbsp;getPerformanceIndex() : int&lt;br&gt;+&amp;nbsp;getIsCertified() :boolean&lt;br&gt;+ setSalary(newSalary :double&amp;nbsp;,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;newPerformanceIndex:int)&lt;br&gt;+ removeTutor() : void&lt;br&gt;+ display() : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="JZdgUE2cCizq7lvIFVpE-10">
+          <mxGeometry y="200" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="JZdgUE2cCizq7lvIFVpE-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="JZdgUE2cCizq7lvIFVpE-10" target="JZdgUE2cCizq7lvIFVpE-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="470" as="sourcePoint" />
+            <mxPoint x="340" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
